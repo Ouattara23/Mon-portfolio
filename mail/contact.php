@@ -9,7 +9,7 @@ $email = strip_tags(htmlspecialchars($_POST['email']));
 $m_subject = strip_tags(htmlspecialchars($_POST['subject']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-$to = "info@example.com"; // Change this email to your //
+$to = "yahouattara64@gmail.com"; // Change this email to your //
 $subject = "$m_subject:  $name";
 $body = "Vous avez reçu un nouveau message du formulaire de contact de votre site Web.\n\n"."Voici les détails:\n\nName: $name\n\n\nEmail: $email\n\nSubject: $m_subject\n\nMessage: $message";
 $header = "From: $email";
